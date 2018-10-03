@@ -20,6 +20,8 @@ header {
   border-bottom: 1px solid seashell;
   display: flex;
   align-items: center;
+  margin: 0 auto;
+  padding: 0 auto;
 
 }
 
@@ -27,11 +29,13 @@ header {
   margin-left: 10px;
   align-self: center;
   height: 50px;
+
 }
 
 header a {
   color: white;
   padding: 20px;
+
 }
 
 nav {
@@ -58,7 +62,7 @@ nav {
 
 .mission h2 {
   background-color: black;
-
+  margin: 10px auto;
 
 
 }
@@ -68,6 +72,7 @@ nav {
   text-align: center;
   align-self: center;
   background-color: black;
+  margin: 10px auto;
 
 }
 
@@ -80,18 +85,26 @@ nav {
 .tea {
   display: flex;
   flex-wrap: wrap;
-  align-items: flex-start;
+  align-items: space-around;
   justify-content: center;
   align-items: center;
   width: 1000px;
   margin: 10px auto;
-  padding: 10px;
+  padding: 0 auto;
 }
+
+.sp {
+  margin: 10px;
+}
+
 
 .type {
   height: 200px;
   width: 300px;
-  margin: 10px;
+}
+
+div h3 {
+  margin: 10px auto;
 }
 
 
@@ -100,24 +113,40 @@ nav {
 .end {
     background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg");
     height: 500px;
-    width:1200px;
-    align-items: flex-end;
+    width: 1200px;
     justify-content: center;
     margin: 0 auto;
+    padding: 0 auto;
+}
 
+#location {
+
+padding-top: 100px;
+padding: 0 auto;
+margin: 0 auto;
 }
 
 .location {
   display: flex;
-  align-items: center;
   justify-content: center;
-  margin: 0 auto;
 }
 
 .loc {
+  margin: 15px 20px;
   background-color: black;
-  margin: 40px;
-  padding: 20px;
   width: 300px;
-  opacity:
+  padding: 25px 0px;
+}
+
+/* contact */
+
+.contact {
+  height: 200px;
+}
+
+/* Footer */
+
+footer {
+  text-align: left;
+  margin: 20px;
 }
