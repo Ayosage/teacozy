@@ -22,7 +22,7 @@ header {
   align-items: center;
   margin: 0 auto;
   padding: 0 auto;
-
+  top: 0;
 }
 
 #logo{
@@ -112,7 +112,7 @@ div h3 {
 
 .end {
     background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg");
-    height: 500px;
+    height: 575px;
     width: 1200px;
     justify-content: center;
     margin: 0 auto;
